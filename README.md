@@ -8,3 +8,8 @@ The request was sucessful, so as the project.
 
    *******************************************THE CODE******************************************* 
 
+For the code, we used famous libraries like numpy, photutils, astropy, ... 
+
+We used photutils to trace out ellipses of constant luminosity called isophotes. These isophotes count the number of photons colliding the CCD camera on a specific pixel
+
+Multiple ellipses are generated using a method provided by photutils providing additionnally error bars helping you to decide on whether or not the model is good enough. 
